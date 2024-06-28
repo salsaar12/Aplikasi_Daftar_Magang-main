@@ -1,4 +1,5 @@
-<h1>Pembimbing</h1>
+<!--edit heading-->
+<h2>Pembimbing</h2>
 
 <?php
 if (isset($_SESSION['message'])) {
