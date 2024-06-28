@@ -28,7 +28,8 @@ if (isset($_POST['submit'])) {
 
 
 	if ($valid == false) {
-		echo '<script>alert("tidak boleh ada field yang kosong")</script>';
+		// edit teks
+		echo '<script>alert("Tidak boleh ada field yang kosong")</script>';
 	} else {
 		$query		=	"UPDATE pembimbing 
 						SET nama_pembimbing = '$nama_pembimbing' 
@@ -49,8 +50,10 @@ if (isset($_POST['submit'])) {
 	<div class="col-sm-12 col-md-8 col-lg-10 col-lg-offset-1">
 		<div class="card" style="margin-top: 50px">
 			<div class="card-header" data-background-color="gb">
-				<h4 class="title"><b>Ubah data Pembimbing</b></h4>
-				<p class="category">Masukan data Pembimbing dengan benar</p>
+				<!--edit teks-->
+				<h4 class="title"><b>Ubah data pembimbing</b></h4>
+				<!--edit teks-->
+				<p class="category">Masukkan data pembimbing dengan benar</p>
 			</div>
 			<div class="card-content">
 				<a href="index.php?page=25" class="btn btn-primary btn-md pull-right"><i class="fa fa-arrow-left"></i> Kembali</a>
