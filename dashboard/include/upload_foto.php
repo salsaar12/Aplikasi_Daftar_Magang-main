@@ -29,21 +29,21 @@ if (isset($_POST['upload'])) {
             if ($exec) {
                 echo "<div class='alert alert-success alert-dismissable'>
               <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-              <strong>Berhasil!</strong> Upload Pas Foto(PDF, JPEG, PNG).
+              <strong>Berhasil!</strong> Upload Pas Foto (PDF, JPEG, PNG).
             </div>";
             }
         } else {
 
             echo "<div class='alert alert-danger alert-dismissable'>
           <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-          <strong>Gagal!</strong> Upload Pas Foto(PDF, JPEG, PNG).
+          <strong>Gagal!</strong> Upload Pas Foto (PDF, JPEG, PNG).
         </div>";
         }
     } else {
 
         echo "<div class='alert alert-danger alert-dismissable'>
           <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-          <strong>Gagal!</strong> Upload Pas Foto harus format(.PDF, JPEG, PNG).
+          <strong>Gagal!</strong> Upload Pas Foto harus format (PDF, JPEG, PNG).
         </div>";
     }
 }
@@ -55,7 +55,7 @@ if (isset($_POST['upload'])) {
         <div class="card" style="margin-top: 50px">
             <div class="card-header" data-background-color="gb">
                 <h4 class="title"><b>Upload Pas Foto (JPG/PNG)</b></h4>
-                <p class="category">Upload dengan format yang benar(PDF, JPEG, PNG)</p>
+                <p class="category">Upload dengan format yang benar (PDF, JPEG, PNG)</p>
                 <a href="index.php?page=4" class="btn btn-primary btn-md pull-right" style="margin-top: -40px;"><i class="fa fa-arrow-left"></i> Kembali</a>
             </div>
             <div class="card-content">
