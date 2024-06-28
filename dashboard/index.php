@@ -193,10 +193,15 @@ switch ($getPage) {
                 Tip 2: you can also add an image using data-image tag
             -->
             <div class="logo">
-                <a href="" class="simple-text">
-                    Selamat datang <?php $role == "Admin" ? print($nama_admin) : print($nama_panggilan); ?>
+                <!--edit dari sini-->
+                <a href="index.php?page=1" class="simple-text">
+                    <div class="profile-info">
+                        <h3><?php $role == "Admin" ? print($nama_admin) : print($nama_panggilan); ?></h3>
+                        <h7><?php echo $role; ?></h7>
+                    </div>
                 </a>
             </div>
+            <!--sampe sini-->
             <div class="sidebar-wrapper">
                 <ul class="nav">
                     <li class="<?php $_SESSION['active'] == 1 ? print("active") : print("") ?>">
@@ -307,7 +312,8 @@ switch ($getPage) {
 
                     <li>
                         <a href="../logout.php">
-                            <i class="material-icons text-gray">notifications</i>
+                            <!--edit material icons jd exit...-->
+                            <i class="material-icons text-gray">exit_to_app</i>
                             <p>Logout</p>
                         </a>
                     </li>
