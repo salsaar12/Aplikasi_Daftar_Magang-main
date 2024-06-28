@@ -1,4 +1,5 @@
-<h1>Dinas - Bidang</h1>
+<!--edit heading-->
+<h2>Dinas - Bidang</h2>
 
 <?php
 if (isset($_SESSION['message'])) {
