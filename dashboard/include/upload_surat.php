@@ -29,21 +29,21 @@ if (isset($_POST['upload'])) {
             if ($exec) {
                 echo "<div class='alert alert-success alert-dismissable'>
               <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-              <strong>Berhasil!</strong> Upload Surat Pengantar(PDF, JPEG, PNG).
+              <strong>Berhasil!</strong> Upload Surat Pengantar (PDF, JPEG, PNG).
             </div>";
             }
         } else {
 
             echo "<div class='alert alert-danger alert-dismissable'>
           <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-          <strong>Gagal!</strong> Upload Surat Pengantar(PDF, JPEG, PNG).
+          <strong>Gagal!</strong> Upload Surat Pengantar (PDF, JPEG, PNG).
         </div>";
         }
     } else {
 
         echo "<div class='alert alert-danger alert-dismissable'>
           <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-          <strong>Gagal!</strong> Upload Surat Pengantar harus format(.PDF, JPEG, PNG).
+          <strong>Gagal!</strong> Upload Surat Pengantar harus format (PDF, JPEG, PNG).
         </div>";
     }
 }
@@ -54,8 +54,9 @@ if (isset($_POST['upload'])) {
     <div class="col-sm-12 col-md-8 col-lg-10 col-lg-offset-1">
         <div class="card" style="margin-top: 50px">
             <div class="card-header" data-background-color="gb">
-                <h4 class="title"><b>Upload Surat Pengantar Magang Dari Sekolah / Kampus(PDF, JPEG, PNG)</b></h4>
-                <p class="category">Upload dengan format yang benar(PDF, JPEG, PNG)</p>
+                <!--edit teks-->
+                <h4 class="title"><b>Surat Pengantar Magang dari Sekolah/Perguruan Tinggi (PDF, JPEG, PNG)</b></h4>
+                <p class="category">Upload dengan format yang benar (PDF, JPEG, PNG)</p>
                 <a href="index.php?page=4" class="btn btn-primary btn-md pull-right" style="margin-top: -40px;"><i class="fa fa-arrow-left"></i> Kembali</a>
             </div>
             <div class="card-content">
@@ -64,10 +65,12 @@ if (isset($_POST['upload'])) {
 
 
                         <div class="form-group floating-label" style="margin-left: 20px;">
-                            <label class="col-sm-12">Surat Pengantar Magang Dari Sekolah / Kampus(PDF, JPEG, PNG) : </label>
+                            <!--edit teks-->
+                            <label class="col-sm-12">Surat Pengantar Magang dari Sekolah/Perguruan Tinggi (PDF, JPEG, PNG): </label>
                             <label class="btn btn-warning" for="my-file-selector">
                                 <input id="my-file-selector" name="surat" type="file" style="display:none" onchange="$('#upload-file-info').html(this.files[0].name)">
-                                Upload Surat Pengantar Magang Dari Sekolah / Kampus (PDF, JPEG, PNG)
+                                <!--edit teks-->
+                                Surat Pengantar Magang dari Sekolah/Perguruan Tinggi (PDF, JPEG, PNG)
                             </label>
                             <span class='label label-info' id="upload-file-info"></span>
                         </div>
