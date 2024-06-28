@@ -57,7 +57,7 @@ if ($execAkun && $execDaftar && $execDetail) {
                     </tr>
 
                     <tr>
-                        <td><b>No. Telepon</b></td>
+                        <td><b>Nomor Telepon</b></td>
                         <td>: <?php echo $daftar['telepon']; ?></td>
                     </tr>
 
@@ -121,7 +121,7 @@ if ($execAkun && $execDaftar && $execDetail) {
                         <td>: <?php echo $daftar['pekerjaan_ayah']; ?></td>
                     </tr>
                     <tr>
-                        <td><b>No. Telepon Ayah</b></td>
+                        <td><b>Nomor Telepon Ayah</b></td>
                         <td>: <?php echo $daftar['telp_ayah']; ?></td>
                     </tr>
                     <tr>
@@ -137,7 +137,7 @@ if ($execAkun && $execDaftar && $execDetail) {
                         <td>: <?php echo $daftar['pekerjaan_ibu']; ?></td>
                     </tr>
                     <tr>
-                        <td><b>No. Telepon Ibu</b></td>
+                        <td><b>Nomor Telepon Ibu</b></td>
                         <td>: <?php echo $daftar['telp_ibu']; ?></td>
                     </tr>
                 </tbody>
@@ -146,12 +146,13 @@ if ($execAkun && $execDaftar && $execDetail) {
             <h3><b>Download</b></h3>
 
             <ol>
-                <li>Surat Pengantar Magang Dari SMK / Kampus <a href="<?php echo '../assets/uploads/' . $daftar['upload_surat'];  ?>" title="Download Akte Kelahiran" target="_blank"><i class="fa fa-download"></i></a></li>
+                <li>Surat Pengantar Magang dari SMK/Perguruan Tinggi <a href="<?php echo '../assets/uploads/' . $daftar['upload_surat'];  ?>" title="Download Akte Kelahiran" target="_blank"><i class="fa fa-download"></i></a></li>
                 <li>Pas Foto <a href="<?php echo '../assets/uploads/' . $daftar['upload_foto'];  ?>" title="Download Akte Kelahiran" target="_blank"><i class="fa fa-download"></i></a></li>
                 <!-- <li>Foto Anak <a href="<?php echo '../assets/uploads/' . $daftar['foto_anak'];  ?>" title="Download Akte Kelahiran"><i class="fa fa-download"></i></a></li>
                 <li>Foto Keluarga <a href="<?php echo '../assets/uploads/' . $daftar['foto_keluarga'];  ?>" title="Download Akte Kelahiran"><i class="fa fa-download"></i></a></li> -->
             </ol>
 
             <hr>
-            <h3>Lakukan Konfirmasi Pendaftaran?</h3>
+            <!--edit heading-->
+            <h2>Lakukan Konfirmasi Pendaftaran?</h2>
             <a href="index.php?page=7" class="btn btn-primary pull-right"><i class="fa fa-arrow-left"></i> Kembali</a>
