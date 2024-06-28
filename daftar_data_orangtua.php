@@ -55,7 +55,7 @@ if (isset($_POST['submit'])) {
                 <div class="card" style="margin-top: 50px">
                     <div class="card-header" data-background-color="gb">
                         <h4 class="title"><b>Data Orang Tua</b></h4>
-                        <p class="category">Isi Form pendaftaran dengan benar</p>
+                        <p class="category">Isi Form Pendaftaran dengan benar</p>
                     </div>
                     <div class="card-content">
                         <form method="post" action="daftar_data_orangtua.php">
@@ -99,7 +99,7 @@ if (isset($_POST['submit'])) {
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group label-floating">
-                                            <label class="control-label">No. Telepon</label>
+                                            <label class="control-label">Nomor Telepon</label>
                                             <input type="text" class="form-control" name="telp_ayah" placeholder="Masukan No.Telepon / WA..." value="<?php isset($_SESSION['telp_ayah'])  ?  print($_SESSION['telp_ayah']) : ""; ?>" required>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@ if (isset($_POST['submit'])) {
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group label-floating">
-                                            <label class="control-label">No. Telepon</label>
+                                            <label class="control-label">Nomor Telepon</label>
                                             <input type="text" class="form-control" name="telp" placeholder="Masukan No.Telepon / WA..." value="<?php isset($_SESSION['telp'])  ?  print($_SESSION['telp']) : ""; ?>" required>
                                         </div>
                                     </div>
