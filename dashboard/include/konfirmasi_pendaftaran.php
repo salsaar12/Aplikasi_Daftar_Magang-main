@@ -14,7 +14,7 @@ if (isset($_SESSION['message'])) {
         <div class="card" style="margin-top: 50px">
             <div class="card-header" data-background-color="gb">
                 <h4 class="title"><b>Konfirmasi Pendaftaran</b></h4>
-                <p class="category">Lakukan konfirmasi pendaftaran</p>
+                <p class="category">Lakukan Konfirmasi Pendaftaran</p>
             </div>
             <div class="card-content">
 
