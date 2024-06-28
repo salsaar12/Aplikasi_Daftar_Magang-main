@@ -84,7 +84,8 @@ if (isset($_POST['submit'])) {
                 <div class="card" style="margin-top: 50px">
                     <div class="card-header" data-background-color="gb">
                         <h4 class="title">Data Admin</h4>
-                        <p class="category">Isi Form Registrasi admin dengan benar, akan digunakan untuk login sebagai Admin</p>
+                        <!--edit teks-->
+                        <p class="category">Isi Form Registrasi Admin dengan benar, akan digunakan untuk login sebagai Admin</p>
                     </div>
                     <div class="card-content">
                         <form method="post" action="">
