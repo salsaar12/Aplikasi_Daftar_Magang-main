@@ -84,7 +84,7 @@ if (isset($_POST['submit'])) {
                 <div class="card" style="margin-top: 50px">
                     <div class="card-header" data-background-color="gb">
                         <h4 class="title"><b>Data Account User</b></h4>
-                        <p class="category">Isi Form pendaftaran akun dengan benar, akan digunakan untuk login</p>
+                        <p class="category">Isi Form Pendaftaran akun dengan benar, akan digunakan untuk login</p>
                     </div>
                     <div class="card-content">
                         <form method="post" action="">
