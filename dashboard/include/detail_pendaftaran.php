@@ -27,7 +27,8 @@ if ($execAkun && $execDaftar && $execDetail) {
     <div class="card" style="margin-top: 50px">
         <div class="card-header" data-background-color="gb">
             <h4 class="title"><b>Biodata Pendaftar</b></h4>
-            <p class="category">Periksan data Peserta dibawah, pastikan sudah benar</p>
+            <!--edit teks-->
+            <p class="category">Periksa data Peserta di bawah, pastikan sudah benar</p>
         </div>
         <div class="card-content table-responsive">
 
@@ -57,6 +58,7 @@ if ($execAkun && $execDaftar && $execDetail) {
                     </tr>
 
                     <tr>
+                        <!--edit teks-->
                         <td><b>Nomor Telepon</b></td>
                         <td>: <?php echo $daftar['telepon']; ?></td>
                     </tr>
@@ -121,6 +123,7 @@ if ($execAkun && $execDaftar && $execDetail) {
                         <td>: <?php echo $daftar['pekerjaan_ayah']; ?></td>
                     </tr>
                     <tr>
+                        <!--edit teks-->
                         <td><b>Nomor Telepon Ayah</b></td>
                         <td>: <?php echo $daftar['telp_ayah']; ?></td>
                     </tr>
@@ -137,6 +140,7 @@ if ($execAkun && $execDaftar && $execDetail) {
                         <td>: <?php echo $daftar['pekerjaan_ibu']; ?></td>
                     </tr>
                     <tr>
+                        <!--edit teks-->
                         <td><b>Nomor Telepon Ibu</b></td>
                         <td>: <?php echo $daftar['telp_ibu']; ?></td>
                     </tr>
@@ -146,6 +150,7 @@ if ($execAkun && $execDaftar && $execDetail) {
             <h3><b>Download</b></h3>
 
             <ol>
+                <!--edit teks-->
                 <li>Surat Pengantar Magang dari SMK/Perguruan Tinggi <a href="<?php echo '../assets/uploads/' . $daftar['upload_surat'];  ?>" title="Download Akte Kelahiran" target="_blank"><i class="fa fa-download"></i></a></li>
                 <li>Pas Foto <a href="<?php echo '../assets/uploads/' . $daftar['upload_foto'];  ?>" title="Download Akte Kelahiran" target="_blank"><i class="fa fa-download"></i></a></li>
                 <!-- <li>Foto Anak <a href="<?php echo '../assets/uploads/' . $daftar['foto_anak'];  ?>" title="Download Akte Kelahiran"><i class="fa fa-download"></i></a></li>
