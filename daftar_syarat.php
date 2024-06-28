@@ -56,19 +56,22 @@ if (isset($_POST['submit'])) {
                 <div class="card" style="margin-top: 50px">
                     <div class="card-header" data-background-color="gb">
                         <h4 class="title"><b>Syarat Pendaftaran</b></h4>
-                        <p class="category">Isi Form pendaftaran dengan benar</p>
+                        <!--edit teks-->
+                        <p class="category">Isi Form Pendaftaran dengan benar</p>
                     </div>
                     <div class="card-content">
-                        <h3>Berikut adalah syarat pendaftaran siswa baru yang harus dipenuhi :</h3>
+                        <!--edit teks-->
+                        <h3>Berikut adalah syarat pendaftaran yang harus dipenuhi:</h3>
                         <ol>
                             <li>
                                 <font color="#2ecc71">Mengisi Formulir Pendaftaran <i class="fa fa-check"></font></i>
                             </li>
-                            <li>Upload Surat Pengantar Magang Dari Sekolah / Kampus</li>
+                            <!--edit teks-->
+                            <li>Upload Surat Pengantar Magang dari Sekolah/Perguruan Tinggi</li>
                             <li>Upload Pas Foto</li>
                         </ol>
 
-                        <h6><i><b>*Catatan : Segeralah melengkapi persyaratan setelah anda melakukan pendaftaran!</b></i></h6>
+                        <h6><i><b>*Catatan: Segeralah melengkapi persyaratan setelah Anda melakukan pendaftaran!</b></i></h6>
                     </div>
                 </div>
             </div>
@@ -79,12 +82,13 @@ if (isset($_POST['submit'])) {
                 <div class="card" style="margin-top: 50px">
                     <div class="card-header" data-background-color="gb">
                         <h4 class="title"><b>Data Pendaftar</b></h4>
-                        <p class="category">Periksan data anda dibawah, pastikan sudah benar</p>
+                        <p class="category">Periksa data Anda di bawah, pastikan sudah benar</p>
                     </div>
                     <div class="card-content table-responsive">
 
                         <a href="daftar_magang_baru.php" class="btn btn-primary pull-right"><i class="fa fa-pencil"></i> Edit Data</a>
-                        <h3 style="overflow: hidden;"><b>Data Calon Siswa</b></h3>
+                        <!--edit teks-->
+                        <h3 style="overflow: hidden;"><b>Data Calon Peserta Magang</b></h3>
                         <table class="table table-hover">
 
                             <tbody>
@@ -114,7 +118,7 @@ if (isset($_POST['submit'])) {
                                     <td>: <?php isset($_SESSION['gender']) && $_SESSION['gender'] == "L" ? print("Laki-laki") : print("Perempuan") ?></td>
                                 </tr>
                                 <tr>
-                                    <td><b>No. Telp</b></td>
+                                    <td><b>Nomor Telp</b></td>
                                     <td>: <?php isset($_SESSION['telp_magang'])  ?  print($_SESSION['telp_magang']) : ""; ?></td>
                                 </tr>
                                 <tr>
@@ -154,7 +158,7 @@ if (isset($_POST['submit'])) {
 
                         <a href="daftar_data_orangtua.php" class="btn btn-primary pull-right" style="margin-top: 30px;"><i class="fa fa-pencil"></i> Edit Data</a>
 
-                        <h3><b>Data Orangtua</b></h3>
+                        <h3><b>Data Orang Tua</b></h3>
                         <table class="table table-hover">
 
                             <tbody>
@@ -196,7 +200,7 @@ if (isset($_POST['submit'])) {
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                                <p style="font-size: 18pt; padding-top: 18px;">Anda yakin data diatas benar?</p>
+                                <p style="font-size: 18pt; padding-top: 18px;">Anda yakin data di atas benar?</p>
                             </div>
                             <div class="col-md-6">
                                 <a href="proses_simpan_pendaftaran.php" class="btn btn-primary pull-right"> Yakin, kirim data pendaftaran <i class="fa fa-check"></i></a>
