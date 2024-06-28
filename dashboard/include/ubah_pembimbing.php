@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
 		<div class="card" style="margin-top: 50px">
 			<div class="card-header" data-background-color="gb">
 				<!--edit teks-->
-				<h4 class="title"><b>Ubah data pembimbing</b></h4>
+				<h4 class="title"><b>Ubah Data Pembimbing</b></h4>
 				<!--edit teks-->
 				<p class="category">Masukkan data pembimbing dengan benar</p>
 			</div>
