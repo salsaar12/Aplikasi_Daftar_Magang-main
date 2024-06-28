@@ -58,7 +58,8 @@ if (isset($_POST['submit'])) {
                 <div class="card" style="margin-top: 50px">
                     <div class="card-header" data-background-color="gb">
                         <h4 class="title"><b>Biodata Diri</b></h4>
-                        <p class="category">Isi Form pendaftaran dengan benar</p>
+                        <!--edit teks-->
+                        <p class="category">Isi Form Pendaftaran dengan benar</p>
                     </div>
                     <div class="card-content">
                         <form method="post" action="">
@@ -114,7 +115,8 @@ if (isset($_POST['submit'])) {
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group label-floating">
-                                            <label class="control-label">No. Telp</label>
+                                            <!--edit teks-->
+                                            <label class="control-label">Nomor Telp</label>
                                             <input type="text" class="form-control" name="telp_magang" placeholder="Masukan No. Telepon / WA..." required autofocus value="<?php isset($_SESSION['telp_magang'])  ?  print($_SESSION['telp_magang']) : ""; ?>" required>
                                         </div>
                                     </div>
@@ -133,7 +135,7 @@ if (isset($_POST['submit'])) {
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group label-floating">
-                                            <label class="control-label">Nama Asal Akademik (SMK / Kampus)</label>
+                                            <label class="control-label">Nama Asal Akademik (SMK/Perguruan Tinggi)</label>
                                             <input type="text" class="form-control" name="nama_akademik" placeholder="Masukan Nama Akademik..." required autofocus value="<?php isset($_SESSION['nama_akademik'])  ?  print($_SESSION['nama_akademik']) : ""; ?>" required>
                                         </div>
                                     </div>
@@ -147,14 +149,14 @@ if (isset($_POST['submit'])) {
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group label-floating">
-                                            <label class="control-label">Alamat Asal Akademik (SMK / Kampus)</label>
+                                            <label class="control-label">Alamat Asal Akademik (SMK/Perguruan Tinggi)</label>
                                             <textarea class="form-control" name="alamat_akademik" cols="30" rows="2" placeholder="Masukan Alamat Lengkap..." required autofocus><?php isset($_SESSION['alamat_akademik'])  ?  print($_SESSION['alamat_akademik']) : ""; ?></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <label for="" class="control-label">Dinas & Bidang Yang Tuju</label>
+                                        <label for="" class="control-label">Dinas & Bidang yang Dituju</label>
                                         <select name="id_dinas" class="form-control">
                                             <option value="">Pilih *Dinas-Bidang</option>
                                             <?php
