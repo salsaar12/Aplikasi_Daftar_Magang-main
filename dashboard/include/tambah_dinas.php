@@ -99,4 +99,4 @@ if (isset($_POST['submit'])) {
 		</div>
 	</div>
 </div>
-<!--edit teks (perbaikan kapital/tdknya)-->
+<!--edit teks (perbaikan kapital/tidaknya)-->
