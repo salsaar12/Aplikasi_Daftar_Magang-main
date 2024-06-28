@@ -129,7 +129,8 @@ if (isset($_POST['submit'])) {
 							<!-- <i class="fa fa-user-circle"></i> -->
 							<img src="jjoin.png" alt="" style="max-width: 80%;"><br><br>
 							<p style="font-size: 11pt; color: black; text-shadow: 2px 2px 5px #ff82de;">
-								Silahkan lakukan pendaftaran terlebih dahulu jika anda belum memiliki akun. <br>
+								<!--ery edit teks-teksnya-->
+								Silakan lakukan pendaftaran terlebih dahulu jika Anda belum memiliki akun. <br>
 								Klik di bawah ini untuk mendaftar.</p>
 							<span class="signup"><a href="daftar_akun.php" class="btn btn-primary"><b style="font-family: monospace;">Daftar</b></a></span>
 						</div>
