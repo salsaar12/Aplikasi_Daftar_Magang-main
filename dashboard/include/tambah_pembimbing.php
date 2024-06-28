@@ -40,13 +40,15 @@ if (isset($_POST['submit'])) {
 	}
 
 	if ($nama_pembimbing == "") {
-		array_push($err, "nama pembimbing tidak boleh kosong");
+		// edit teks
+		array_push($err, "Nama pembimbing tidak boleh kosong");
 		$valid = false;
 	}
 
 
 	if ($valid == false) {
-		echo '<script>alert("tidak boleh ada field yang kosong")</script>';
+		// edit teks
+		echo '<script>alert("Tidak boleh ada field yang kosong")</script>';
 	} else {
 		$query		=	"INSERT INTO pembimbing VALUES(null, '$nama_pembimbing')";
 		$exec 		=	mysqli_query($conn, $query);
@@ -68,7 +70,8 @@ if (isset($_POST['submit'])) {
 		<div class="card" style="margin-top: 50px">
 			<div class="card-header" data-background-color="gb">
 				<h4 class="title"><b>Tambah Pembimbing</b></h4>
-				<p class="category">Masukan data mapel dengan benar</p>
+				<!--edit teks-->
+				<p class="category">Masukkan data pembimbing dengan benar</p>
 			</div>
 			<div class="card-content">
 				<a href="index.php?page=25" class="btn btn-primary btn-md pull-right"><i class="fa fa-arrow-left"></i> Kembali</a>
