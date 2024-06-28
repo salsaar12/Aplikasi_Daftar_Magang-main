@@ -30,14 +30,15 @@
                             <div class="card" style="margin-top: 50px">
                                 <div class="card-header" data-background-color="gb">
                                     <h4 class="title">Pendaftaran Berhasil</h4>
-                                    <p class="category">Selamat anda berhasil melakukan pendaftaran!</p>
+                                    <!--edit teks-->
+                                    <p class="category">Selamat Anda berhasil melakukan pendaftaran!</p>
                                 </div>
                                 <div class="card-content">
                                     <h3>
-                                        <font color="#2ecc71">Selamat! anda berhasil melakukan pendaftaran <i class="fa fa-check"></font></i>
+                                        <font color="#2ecc71">Selamat! Anda berhasil melakukan pendaftaran <i class="fa fa-check"></font></i>
                                     </h3>
                                     <h4>
-                                        <font color="#e74c3c">Silahkan lalukan login dengan email dan password anda untuk melengkapi persyaratan pendaftaran.</font>
+                                        <font color="#e74c3c">Silakan lalukan login dengan email dan password Anda untuk melengkapi persyaratan pendaftaran.</font>
                                     </h4>
                                     <a href="index.php" class="btn btn-primary pull-right">Login</a>
                                 </div>
