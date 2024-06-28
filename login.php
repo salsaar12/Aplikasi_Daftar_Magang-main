@@ -103,7 +103,8 @@ if (isset($_POST['submit'])) {
 	        <div class="col-sm-6 col-md-4 col-md-offset-4">
 	            <h1 class="text-center login-title">Penerimaan Siswa Baru</h1>
 	            <div class="account-wall">
-	                <img class="profile-img" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120"
+			    <!--diganti ery src image-->
+	                <img class="profile-img" src="profil.png"
 	                    alt="">
 	                <form class="form-signin" method="post" action="">
 		                <input type="text" class="form-control" name="email" placeholder="Email" required autofocus>
